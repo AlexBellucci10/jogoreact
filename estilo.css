@@ -1,50 +1,25 @@
-body {
-    font: 14px "Century Gothic", Futura, sans-serif;
-    margin: 20px;
-}
-
-ol, ul { 
-    padding-bottom: 30px;
-}
-
-.caixinha:after {
-    clear: both;
-    content : "";
-    display : table;
-}
-
-.status {
-    margin-bottom: 10px;
-}
-
-.quadrado {
-    background: orangered;
-    border: 2px solid black;
+.quadradao{
+    width: 510px;
+    height: 510px;
     float: left;
-    font-size: 100px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 150px;
-    /*margin-right: -1px;
-    margin-top: -1px;*/
-    padding: 0;
-    text-align: center;
-    width: 152px;
-}
-
-.quadrado:focus{
-    outline: none;
-}
-
-.kbd-navigation .quadrado:focus {
-    background: #ddd;
-}
-
-.game {
-    display: flex;
-    flex-direction: row;
-}
-
-.info-jogo {
-    margin-left: 20px;
-}
+    background-color: orangered;
+    margin: 10px ;
+    display: inline;
+  }
+  
+  
+  .quadrado{
+    width: 162px;
+    height: 162px;
+    border: 2px solid ;
+    border-color: black;
+    text-align: center ;
+    padding: 2px;
+    float: left;
+    cursor: pointer;
+    font-size: 120px;
+  }
+  
+  body{
+    background-color: whitesmoke;
+  }
